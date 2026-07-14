@@ -1,0 +1,36 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# Databases
+*.db
+*.db-journal
+
+# Cache
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docs (not needed in image)
+*.md
+LICENSE
+
+# Agents config
+.agents/

@@ -1,0 +1,94 @@
+# ============================================================
+# ATLAS — .gitignore
+# ============================================================
+
+# Environments & Secrets
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Databases
+chatbot.db
+chatbot.db-journal
+*.db
+*.db-journal
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.pyo
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+active_env/
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# PDF Upload Temporary / Ingest Cache (RAG)
+temp_*.pdf
+/temp/
+
+# FAISS Vector Store Indexes
+*.faiss
+*.pkl
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Agents / AI Config
+.agents/
+
+# Docker
+docker-compose.override.yml
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# MyPy
+.mypy_cache/
